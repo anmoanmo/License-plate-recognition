@@ -1,0 +1,9 @@
+# YOLO 车牌检测训练用的数据集配置模板。
+# 使用时请复制为 `data.yaml`，再按你的数据集路径进行修改。
+
+path: D:/your_dataset_root
+train: images/train
+val: images/val
+
+names:
+  0: plate

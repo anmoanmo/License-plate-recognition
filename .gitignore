@@ -1,0 +1,110 @@
+# --- OS / File Manager ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- Editors / IDEs ---
+.vscode/
+.idea/
+*.iml
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.swp
+*.swo
+*~
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.so
+.Python
+.python-version
+
+# --- Virtual Environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Build / Packaging ---
+build/
+dist/
+site/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+
+# --- Testing / Lint / Type Check ---
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Logs / Temp ---
+*.log
+*.out
+*.err
+*.tmp
+*.temp
+tmp/
+temp/
+*.md
+
+# --- Secrets / Local Config ---
+.env
+.env.*
+!.env.example
+
+# --- ML / DL Data ---
+data/
+dataset/
+datasets/
+cache/
+caches/
+ccpd/
+
+# --- Training Outputs / Experiment Artifacts ---
+runs/
+outputs/
+results/
+predictions/
+experiments/
+exp/
+exp*/
+logs/
+wandb/
+mlruns/
+lightning_logs/
+tensorboard/
+tb_logs/
+checkpoints/
+checkpoints*/
+
+# --- Model Weights / Exported Models ---
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+*.plan
+*.trt
+*.torchscript
+*.tflite
+
+# --- Framework / Tool Local Files ---
+ultralytics_settings.yaml
+
