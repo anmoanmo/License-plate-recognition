@@ -62,12 +62,13 @@ htmlcov/
 *.temp
 tmp/
 temp/
-*.md
+output/
 
 # --- Secrets / Local Config ---
 .env
 .env.*
 !.env.example
+data.yaml
 
 # --- ML / DL Data ---
 data/
@@ -94,6 +95,10 @@ tb_logs/
 checkpoints/
 checkpoints*/
 
+# Keep only the runtime CNN weight under training_results.
+training_results/*
+!training_results/best_model.h5
+
 # --- Model Weights / Exported Models ---
 *.pt
 *.pth
@@ -105,6 +110,9 @@ checkpoints*/
 *.torchscript
 *.tflite
 
+# Keep minimal cross-machine runtime weights in repo root.
+!/best.pt
+!/*.pth
+
 # --- Framework / Tool Local Files ---
 ultralytics_settings.yaml
-
